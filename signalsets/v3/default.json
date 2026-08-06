@@ -3,7 +3,7 @@
   "signals": [
     {"id": "MACAN_TID_1", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 1 sensor id"},
     {"id": "MACAN_TP_1",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 1 current pressure",   "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "MACAN_TT_1",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 1 temperature"},
+    {"id": "MACAN_TT_1",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 1 temperature",        "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "MACAN_TPS_1", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 1 specified pressure"},
     {"id": "MACAN_TPW_1", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 1 warning pressure"},
     {"id": "MACAN_TPOS_1", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
@@ -18,7 +18,7 @@
   "signals": [
     {"id": "MACAN_TID_2", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 2 sensor id"},
     {"id": "MACAN_TP_2",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 2 current pressure",   "suggestedMetric": "frontRightTirePressure"},
-    {"id": "MACAN_TT_2",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 2 temperature"},
+    {"id": "MACAN_TT_2",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 2 temperature",        "suggestedMetric": "frontRightTireTemperature"},
     {"id": "MACAN_TPS_2", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 2 specified pressure"},
     {"id": "MACAN_TPW_2", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 2 warning pressure"},
     {"id": "MACAN_TPOS_2", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
@@ -33,7 +33,7 @@
   "signals": [
     {"id": "MACAN_TID_3", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 3 sensor id"},
     {"id": "MACAN_TP_3",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 3 current pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "MACAN_TT_3",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 3 temperature"},
+    {"id": "MACAN_TT_3",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 3 temperature",        "suggestedMetric": "rearLeftTireTemperature"},
     {"id": "MACAN_TPS_3", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 3 specified pressure"},
     {"id": "MACAN_TPW_3", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 3 warning pressure"},
     {"id": "MACAN_TPOS_3", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
@@ -48,7 +48,7 @@
   "signals": [
     {"id": "MACAN_TID_4", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 4 sensor id"},
     {"id": "MACAN_TP_4",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 4 current pressure",   "suggestedMetric": "rearRightTirePressure"},
-    {"id": "MACAN_TT_4",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 4 temperature"},
+    {"id": "MACAN_TT_4",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Tire 4 temperature",        "suggestedMetric": "rearRightTireTemperature"},
     {"id": "MACAN_TPS_4", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 4 specified pressure"},
     {"id": "MACAN_TPW_4", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Tire 4 warning pressure"},
     {"id": "MACAN_TPOS_4", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
@@ -58,6 +58,156 @@
           "3": { "description": "Rear right",  "value": "RR" }
         }}
     }
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1801"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1802"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1803"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1804"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_SWA_ALT", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.5625, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1808"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_HDC_ACT", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control active"},
+    {"id": "MACAN_MQB_HDC_INC", "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control incline angle"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180A"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
+    {"id": "MACAN_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180C"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_ELEC_DIFF_ACT", "path": "Engine",  "fmt": {"bix": 1,  "len": 1,  "max": 1,                                         "unit": "offon"   }, "name": "Electronic differential lock active"},
+    {"id": "MACAN_EDL_FR_L_BRAKE_T",  "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
+    {"id": "MACAN_EDL_FR_R_BRAKE_T",  "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front right brake temperature"},
+    {"id": "MACAN_EDL_RR_L_BRAKE_T",  "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
+    {"id": "MACAN_EDL_RR_R_BRAKE_T",  "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180E"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_BRK_DRY_ACT",      "path": "Brakes", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying active"},
+    {"id": "MACAN_MQB_BRK_DRY_ODO_LAST", "path": "Brakes", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying last activation distance"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1810"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_HYD_BRK_BST_ACT", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster active"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1816"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_BRK_PRESS", "path": "Brakes", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure"},
+    {"id": "MACAN_MQB_AIR_VAC",   "path": "Engine", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air intake vacuum"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1821"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_TPMS_AVAIL",            "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "TPMS available?"},
+    {"id": "MACAN_MQB_TPMS_ODO_ADAPT_1",  "path": "Tires", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading at last adaptation"},
+    {"id": "MACAN_MQB_TPMS_ODO_ADAPT_2",  "path": "Tires", "fmt": {"bix": 40,  "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading two adaptations ago"},
+    {"id": "MACAN_MQB_TPMS_ODO_ADAPT_3",  "path": "Tires", "fmt": {"bix": 72,  "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading three adaptations ago"},
+    {"id": "MACAN_MQB_TPMS_ODO_ADAPT_4",  "path": "Tires", "fmt": {"bix": 104, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading four adaptations ago"},
+    {"id": "MACAN_MQB_TPMS_ODO_WARN_1",   "path": "Tires", "fmt": {"bix": 136, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading at last warning"},
+    {"id": "MACAN_MQB_TPMS_ODO_WARN_2",   "path": "Tires", "fmt": {"bix": 168, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading at second to last warning"},
+    {"id": "MACAN_MQB_TPMS_ODO_WARN_3",   "path": "Tires", "fmt": {"bix": 200, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading at third to last warning"},
+    {"id": "MACAN_MQB_TPMS_ODO_WARN_4",   "path": "Tires", "fmt": {"bix": 232, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Tire pressure monitoring odometer reading at fourth to last warning"},
+    {"id": "MACAN_MQB_TPMS_FL_TIRE_LEAK", "path": "Tires", "fmt": {"bix": 264, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring front left tire leakage rate"},
+    {"id": "MACAN_MQB_TPMS_FR_TIRE_LEAK", "path": "Tires", "fmt": {"bix": 272, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring front right tire leakage rate"},
+    {"id": "MACAN_MQB_TPMS_RL_TIRE_LEAK", "path": "Tires", "fmt": {"bix": 280, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring rear left tire leakage rate"},
+    {"id": "MACAN_MQB_TPMS_RR_TIRE_LEAK", "path": "Tires", "fmt": {"bix": 288, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring rear right tire leakage rate"},
+    {"id": "MACAN_MQB_TPMS_FL_FLAT",      "path": "Tires", "fmt": {"bix": 296, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring front left flat tire indicator"},
+    {"id": "MACAN_MQB_TPMS_FR_FLAT",      "path": "Tires", "fmt": {"bix": 304, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring front right flat tire indicator"},
+    {"id": "MACAN_MQB_TPMS_RL_FLAT",      "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring rear left flat tire indicator"},
+    {"id": "MACAN_MQB_TPMS_RR_FLAT",      "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Tire pressure monitoring rear right flat tire indicator"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "18B6"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_MQB_CSS_ACT",      "path": "Control", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Directional stability control active"},
+    {"id": "MACAN_MQB_CSS_ODO_LAST", "path": "Control", "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Directional stability control last activation distance"},
+    {"id": "MACAN_MQB_CSS_STR_TRQ",  "path": "Control", "fmt": {"bix": 32, "len": 16, "max": 1, "div": 1000, "unit": "newtonMeters" }, "name": "Directional stability control steering torque"}
+  ]},
+{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_TIRE_FL_SPD_713", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_TIRE_FR_SPD_713", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_TIRE_RL_SPD_713", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 0.25,
+  "signals": [
+    {"id": "MACAN_TIRE_RR_SPD_713", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "2B29"}, "freq": 0.1,
+  "signals": [
+    {"id": "MACAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 167772150, "mul": 10, "unit": "kilometers" }, "name": "Odometer (dash)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "22B0"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_FLV_22B0", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "22E0"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_RANGE_DSP", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Range remaining, displayed", "suggestedMetric": "electricRange"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+  "signals": [
+    {"id": "MACAN_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "0530"}, "freq": 0.5,
+  "signals": [
+    {"id": "MACAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption, short", "suggestedMetric": "tractionBatteryEfficiency"}
+  ]},
+{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "1014"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2206"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_FLV_2206", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2211"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_PQ35_CHG_AIR_P", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
+  ]},
+{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "224B"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_PQ35_OIL_WEAR", "path": "Fluids", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
+  ]},
+{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "2299"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_PQ35_AVG_FUEL_CON", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
 { "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2019, 2020, 2021], "from": 2026 },
   "signals": [
@@ -78,6 +228,16 @@
 { "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2019, 2020, 2021], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
+  ]},
+{ "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "F105"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_DIFF_MOTOR_T",  "path": "Engine", "fmt": {           "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Motor temperature"},
+    {"id": "MACAN_DIFF_OIL_T",    "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Oil temperature"},
+    {"id": "MACAN_DIFF_CLUTCH_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Clutch temperature"}
+  ]},
+{ "hdr": "742", "rax": "7AC", "fcm1": true, "dbg": true, "cmd": {"22": "2609"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_PTC_OUTSIDE_T", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 600, "dbgfilter": { "to": 2014, "years": [2019, 2020, 2021], "from": 2026 },
   "signals": [
@@ -117,6 +277,15 @@
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2019, 2020, 2021, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210F"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "1": { "description": "Reverse", "value": "REVERSE" },
+          "2": { "description": "Park",    "value": "PARK" },
+          "3": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    }
   ]}
 ]
 }
